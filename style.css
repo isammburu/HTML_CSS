@@ -1,0 +1,73 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(pexels-francesco-ungaro-281260\ -\ Copy.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+header {
+  padding-left: 2rem;
+}
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+}
+header nav .logo {
+  color: orange;
+  font-weight: 800;
+  font-size: 2.5rem;
+  font-family: Helvetica, sans-serif;
+}
+header ul {
+  list-style-type: none;
+  margin-left: auto;
+  padding-right: 9rem;
+}
+header ul li {
+  display: inline-block;
+}
+header ul li a {
+  display: inline-block;
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  margin-left: 5.6rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header ul li a:hover {
+  color: rgb(255, 123, 0);
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: ease-in-out;
+  text-decoration: underline;
+}
+main {
+  display: flex;
+  justify-content: space-between;
+}
+img {
+  height: auto;
+  width: 450px;
+  margin-left: 10rem;
+}
+#hospital_name {
+  display: inline-block;
+  font-size: 2.5rem;
+  color: #fff;
+  font-weight: 800;
+  font-family: Helvetica, sans-serif;
+  justify-content: right;
+  align-content: flex-start;
+}
+#quizbtn {
+  padding: 10px;
+  background-color: blueviolet;
+  color: #fff;
+  display: flex;
+  
+}
